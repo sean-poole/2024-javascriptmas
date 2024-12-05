@@ -32,7 +32,7 @@ function findAnagrams(array){
         first === second ? actualAnagrams.push(pair) : notAnagrams.push(pair);
     }
 
-    return [actualAnagrams, notAnagrams];
+    return actualAnagrams;
 }
 
 console.log(findAnagrams(anagrams));
