@@ -1,0 +1,72 @@
+/*
+Link to Figma: https://scrimba.com/links/santa-saas-figma
+*/
+* {
+    --red: rgba(143, 0, 2, 0.83);
+    --light-red: #FFF2F2
+    --dark-red: #470000;
+}
+
+nav {
+    background-color: var(--red);
+    padding: 1rem 3rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+}
+
+    .logo-container span {
+        padding: 0 0.3rem;
+    }
+
+nav ul {
+    display: flex;
+    flex-direction: row;
+    gap: 2;
+}
+
+ul, li {
+    padding: 0 2rem;
+    list-style-type: none;
+}
+
+li a {
+    color: white;
+    text-decoration: none;
+}
+
+header button {
+    background-color: var(--red);
+    border: 1px solid white;
+    border-radius: 10px;
+    color: white;
+    font-size: 1.2rem;
+    padding: 0.5rem 1rem;
+}
+
+    header button:hover {
+        background-color: white;
+        border: 1px solid var(--red);
+        color: var(--red);
+    }
+
+header {
+    background-color: var(--red);
+    color: white;
+    text-align: center;
+}
+
+img {
+    max-width: 100%;
+}
+
+#customer img {
+    width: 100px;
+}
+
